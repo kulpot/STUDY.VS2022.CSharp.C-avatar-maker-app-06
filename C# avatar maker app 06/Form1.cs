@@ -36,7 +36,7 @@ using System.Windows.Forms;
 //--------------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=3tZNK3WPOW4&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=12
 
-// label, numericalUpDown(name:num_year_experience)
+// label, numericalUpDown(name:num_year_experience), \n
 
 namespace HeroMaker
 {
@@ -118,7 +118,7 @@ namespace HeroMaker
 
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
             string status_message = "Your new hero is " + txt_name.Text + "." +
-                " You have selected the following abilities: ";
+                " \nYou have selected the following abilities: ";
 
             if (abilities[0])
                 status_message += "Fly, ";
@@ -140,7 +140,7 @@ namespace HeroMaker
 
             //----START--------- C# avatar maker app 02 How to use a listbox tutorial -------------------------------
             //listbox
-            status_message += "The hero works in these cities: "; 
+            status_message += "\nThe hero works in these cities: "; 
             foreach(String city in cities)
             {
                 status_message += city + ", ";
@@ -148,21 +148,21 @@ namespace HeroMaker
             //-----END---------- C# avatar maker app 02 How to use a listbox tutorial -------------------------------
 
             //-----START---------- C# avatar maker app 03 How to use radio buttons tutorial ------------------------------
-            status_message += " Your hero prefers to travel by " + preferred_transport + ".";
+            status_message += " \nYour hero prefers to travel by " + preferred_transport + ".";
             //-----END---------- C# avatar maker app 03 How to use radio buttons tutorial ------------------------------
 
             //-----START---------- C# heromaker app 04 How to use scrollbars in Winforms -----------------------------------
-            status_message += " Speed: " + speed + " Stamina: " + stamina + " Strength: " + strength + ".";
+            status_message += " \nSpeed: " + speed + " Stamina: " + stamina + " Strength: " + strength + ".";
             //-----END---------- C# heromaker app 04 How to use scrollbars in Winforms -----------------------------------
 
             //------START-------- C# hermaker app 05 How to program a date picker in C# -------------------------------------
-            status_message += " Your hero was born on " + birthday;
-            status_message += " The hero discovered super powers on " + superPowerDiscovery;
-            status_message += " The fateful day for this person is " + fatefulDay;
+            status_message += " \nYour hero was born on " + birthday;
+            status_message += " \nThe hero discovered super powers on " + superPowerDiscovery;
+            status_message += " \nThe fateful day for this person is " + fatefulDay;
             //------END-------- C# hermaker app 05 How to program a date picker in C# -------------------------------------
 
             //-----START-------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
-            status_message += " Years experience: " + years_experience;
+            status_message += " \nYears experience: " + years_experience;
             //-----END-------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
 
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
