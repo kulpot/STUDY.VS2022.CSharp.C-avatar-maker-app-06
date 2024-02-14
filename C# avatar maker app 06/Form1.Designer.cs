@@ -59,12 +59,13 @@
             this.scroll_speed = new System.Windows.Forms.HScrollBar();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.date_birthday = new System.Windows.Forms.DateTimePicker();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.date_power_discovery = new System.Windows.Forms.DateTimePicker();
-            this.label8 = new System.Windows.Forms.Label();
             this.date_fate = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
+            this.date_power_discovery = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.date_birthday = new System.Windows.Forms.DateTimePicker();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -378,7 +379,7 @@
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(491, 252);
+            this.trackBar1.Location = new System.Drawing.Point(491, 308);
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(104, 45);
             this.trackBar1.TabIndex = 1;
@@ -398,37 +399,12 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "groupBox4";
             // 
-            // date_birthday
+            // date_fate
             // 
-            this.date_birthday.Location = new System.Drawing.Point(18, 39);
-            this.date_birthday.Name = "date_birthday";
-            this.date_birthday.Size = new System.Drawing.Size(200, 20);
-            this.date_birthday.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(15, 23);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Birthday";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(15, 62);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(118, 13);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Super Power Discovery";
-            // 
-            // date_power_discovery
-            // 
-            this.date_power_discovery.Location = new System.Drawing.Point(18, 78);
-            this.date_power_discovery.Name = "date_power_discovery";
-            this.date_power_discovery.Size = new System.Drawing.Size(200, 20);
-            this.date_power_discovery.TabIndex = 3;
+            this.date_fate.Location = new System.Drawing.Point(18, 115);
+            this.date_fate.Name = "date_fate";
+            this.date_fate.Size = new System.Drawing.Size(200, 20);
+            this.date_fate.TabIndex = 5;
             // 
             // label8
             // 
@@ -439,18 +415,53 @@
             this.label8.TabIndex = 4;
             this.label8.Text = "Fateful Day";
             // 
-            // date_fate
+            // date_power_discovery
             // 
-            this.date_fate.Location = new System.Drawing.Point(18, 115);
-            this.date_fate.Name = "date_fate";
-            this.date_fate.Size = new System.Drawing.Size(200, 20);
-            this.date_fate.TabIndex = 5;
+            this.date_power_discovery.Location = new System.Drawing.Point(18, 78);
+            this.date_power_discovery.Name = "date_power_discovery";
+            this.date_power_discovery.Size = new System.Drawing.Size(200, 20);
+            this.date_power_discovery.TabIndex = 3;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 62);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(118, 13);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Super Power Discovery";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(15, 23);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(45, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Birthday";
+            // 
+            // date_birthday
+            // 
+            this.date_birthday.Location = new System.Drawing.Point(18, 39);
+            this.date_birthday.Name = "date_birthday";
+            this.date_birthday.Size = new System.Drawing.Size(200, 20);
+            this.date_birthday.TabIndex = 0;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(374, 187);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "label9";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.groupBox3);
@@ -516,6 +527,7 @@
         private System.Windows.Forms.DateTimePicker date_fate;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker date_power_discovery;
+        private System.Windows.Forms.Label label9;
     }
 }
 
