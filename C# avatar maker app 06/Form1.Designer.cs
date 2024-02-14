@@ -452,9 +452,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(374, 187);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(102, 13);
             this.label9.TabIndex = 12;
-            this.label9.Text = "label9";
+            this.label9.Text = "Years of Experience";
             // 
             // Form1
             // 
