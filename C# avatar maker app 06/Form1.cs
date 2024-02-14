@@ -36,7 +36,7 @@ using System.Windows.Forms;
 //--------------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=3tZNK3WPOW4&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=12
 
-// label, numericalUpDown
+// label, numericalUpDown(name:num_year_experience)
 
 namespace HeroMaker
 {
@@ -110,6 +110,12 @@ namespace HeroMaker
             DateTime fatefulDay = date_fate.Value;
             //------END-------- C# hermaker app 05 How to program a date picker in C# -------------------------------------
 
+            //-----START-------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
+            // years experience
+
+            decimal years_experience = num_years_experience.Value;
+            //-----END-------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
+
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
             string status_message = "Your new hero is " + txt_name.Text + "." +
                 " You have selected the following abilities: ";
@@ -154,6 +160,10 @@ namespace HeroMaker
             status_message += " The hero discovered super powers on " + superPowerDiscovery;
             status_message += " The fateful day for this person is " + fatefulDay;
             //------END-------- C# hermaker app 05 How to program a date picker in C# -------------------------------------
+
+            //-----START-------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
+            status_message += " Years experience: " + years_experience;
+            //-----END-------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
 
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
             MessageBox.Show(status_message);
