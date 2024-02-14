@@ -33,6 +33,9 @@ using System.Windows.Forms;
 
 // GroupBox, DateTimePicker x3, Label x3,
 
+//--------------- C# avatar maker app 06 How to use a number picker ------------------------------------------------
+//ref link:https://www.youtube.com/watch?v=3tZNK3WPOW4&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=12
+
 namespace HeroMaker
 {
     public partial class Form1 : Form
